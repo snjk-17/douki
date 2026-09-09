@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+body {
+	background: white; color: #666666; font-size:1.0em; font-family: Meiryo UI, Helvetica, sans-serif; margin-top:30px; margin-left:20px;
+}
+
+div#container {
+	width:110px ;
+	margin:0 auto ;
+}
+
+h1 { color: blue; font-size:1.7em; }
+h2 { color: #ff4500; font-size:1.5em; }
+h3 { color: #002060; font-size:1.3em; }
+
+table {background: white; color: #002060; font-size:1.2em;}
+
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #007ac3;
+}
+a:hover {
+	color: #e43e89;
+}
+strong{ color: #007ac3; font-weight: bold; font-size:1.2em;}
+
+a img {border-style:none;}
+
+hr {
+   border-width: 1px 0px 0px 0px; /* 太さ */
+   border-style: solid; /* 線種 */
+   border-color: #007ac3;   /* 線色 */
+   height: 1px;         /* 高さ(※古いIE用) */
+}
